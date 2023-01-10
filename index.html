@@ -9,9 +9,9 @@ description: "博客页面"
         <h2 class="post-title">            
             {{ post.title }}
         </h2>
-        {% if post.subtitle %}
+        {% if site.description %}
         <h3 class="post-subtitle">
-            {{ post.subtitle }}
+            {{ site.description }}
         </h3>
         {% endif %}
         <div class="post-content-preview">
