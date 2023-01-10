@@ -39,10 +39,10 @@ C++：
 class Solution {
 public:
     vector<int> runningSum(vector<int>& nums) {
-        int len = nums.size();
-        for (int i = 1; i < len; ++i)
+        int len = nums.size();				//获取nums数组长度
+        for (int i = 1; i < len; ++i)		//示例可得，返回数组第一个数不变，因此从下标1开始遍历
         {
-            nums[i] = nums[i - 1] + nums[i];
+            nums[i] = nums[i - 1] + nums[i];	//更新数组，这里相当于自身+前一个数
         }
         return nums;
     }
@@ -93,8 +93,13 @@ C++：
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
-        int len = nums.size();
-        int total = accumulate(nums.begin(), nums.end(), 0);
+        int len = nums.size();		//获取nums数组长度数组
+        int total = accumulate(nums.begin(), nums.end(), 0);	//把数组的全部元素相加
+		//total为数组的全部元素之和，当遍历到第i个元素时，设其左侧数之和为sum，
+		//那么右侧数之和为total - nums[i] - sum，
+		//如果左右侧元素相等，则sum = total - nums[i] - sum，
+		//进行移项可得2 * sum + nums[i] = total，
+		//正是本题的需求，可以把上式作为条件判断。
         int sum = 0;
         for (int i = 0; i < len; ++i)
         {
