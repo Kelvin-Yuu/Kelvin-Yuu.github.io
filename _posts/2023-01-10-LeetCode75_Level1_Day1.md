@@ -1,11 +1,11 @@
 ---
 layout: post
-title: LeetCode 75-Level_1-Day_1
+title: LeetCode 75 Level 1 Day1
 date: 2023-1-10
 categories: blog
 tags: [LeetCode,数组,前缀和]
 description: 文章金句。
-subtitle: 谋求出路
+subtitle: 谋求出路Day1
 ---
 
 ## 1480. 一维数组的动态和
@@ -25,7 +25,7 @@ subtitle: 谋求出路
 输出：[1,2,3,4,5]
 解释：动态和计算过程为 [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1] 。
 ```
-**示例 2：**
+**示例 3：**
 ```
 输入：nums = [3,1,2,10,1]
 输出：[3,4,6,16,17]
