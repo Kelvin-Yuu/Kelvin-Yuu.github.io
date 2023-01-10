@@ -17,10 +17,10 @@ gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
 douban_username:  # 你的豆瓣id
-twitter_username: 
-github_username: 
+twitter_username: kelvinu1115
+github_username: Kelvin-Yuu
 facebook_username: 
-weibo_username: 
+weibo_username: 5761259816
 zhihu_username: 
 
 # Build settings  
@@ -33,7 +33,7 @@ paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+timezone: Asia/Guangzhou
 
 # Defaults for posts
 defaults:
@@ -43,7 +43,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "你的名字" # 你的名字
+      author: "KelvinYuu" # 你的名字
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
