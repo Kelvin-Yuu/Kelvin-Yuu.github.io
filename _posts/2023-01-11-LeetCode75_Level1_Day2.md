@@ -73,7 +73,6 @@ s2t为s映射t，t2s为t映射s。
 		
 <p><img src="https://github.com/Kelvin-Yuu/Kelvin-Yuu.github.io/blob/master/image/blog/2023-01-11-LeetCode75_Level1_Day2/1.jpg?raw=true" alt="> 图2" class="img-responsive"></p>
 
-	
 ```cpp
 class Solution 
 {
