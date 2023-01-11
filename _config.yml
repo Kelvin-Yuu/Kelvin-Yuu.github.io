@@ -3,7 +3,7 @@ title: KelvinYuu Stellar Blog # 你的博客名字，可以定义修订
 header-img: "img/green.jpg"
 tagline: "cn"  
 description: "刚好路过此地的程序员，也刚好是一名拉拉人。一切都是那么的刚好，如同一颗流行划过，希望能带给大家一点光芒。"  # 一句话描述你的博客
-baseurl: "https://kelvin-yuu.github.io"
+baseurl: ""
 url: "https://kelvin-yuu.github.io"  # 此处填写你的博客地址 
 
 # About/contact
