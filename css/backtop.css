@@ -1,7 +1,7 @@
 /*  Back Top Button  */
 #back-top {
   position: fixed;
-  bottom: 30px;
+  bottom: 10px;
   margin-left: 1040px;
 }
 #back-top a {
