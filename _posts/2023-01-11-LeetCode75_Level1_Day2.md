@@ -45,7 +45,7 @@ subtitle: 谋求出路Day2
 
 > 双射：既是单射又是满射，又称为一一对应。
 
-<p><img src="https://github.com/Kelvin-Yuu/Kelvin-Yuu.github.io/blob/master/image/blog/2023-01-11-LeetCode75_Level1_Day2/2.jpeg" alt="> 图2" class="img-responsive"></p>
+<p><img src="https://github.com/Kelvin-Yuu/Kelvin-Yuu.github.io/blob/master/image/blog/2023-01-11-LeetCode75_Level1_Day2/2.jpeg?raw=true" alt="> 图1" class="img-responsive"></p>
 
 本题很明显，需要字符串s和t是双射关系。
 
@@ -71,7 +71,7 @@ s2t为s映射t，t2s为t映射s。
 	
     ∴ 映射不同(o → a ≠ o → r) 存在一对多关系，不是双射，返回false。
 		
-<p><img src="https://github.com/Kelvin-Yuu/Kelvin-Yuu.github.io/blob/master/image/blog/2023-01-11-LeetCode75_Level1_Day2/1.jpg" alt="> 图2" class="img-responsive"></p>
+<p><img src="https://github.com/Kelvin-Yuu/Kelvin-Yuu.github.io/blob/master/image/blog/2023-01-11-LeetCode75_Level1_Day2/1.jpg?raw=true" alt="> 图2" class="img-responsive"></p>
 
 	
 ```cpp
