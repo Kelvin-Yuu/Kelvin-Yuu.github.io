@@ -6,10 +6,10 @@ $(document).ready(function() {
     // fade in #back-top
     $(function() {
         $(window).scroll(function() {
-            if ($(this).scrollTop() > 100) {
-                $('#back-top').fadeIn();
+            if ($(this).scrollTop() > 300) {
+                $('#back-top').fadeIn(400);
             } else {
-                $('#back-top').fadeOut();
+                $('#back-top').stop().fadeOut(400);
             }
         });
 
