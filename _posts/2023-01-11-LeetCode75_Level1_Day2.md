@@ -41,6 +41,7 @@ subtitle: 谋求出路Day2
 > 单射：对于任意 x ，都有唯一的 y 与之对应。
 > 满射：对于任意 y ，至少存在一个 x 与之对应。
 > 双射：既是单射又是满射，又称为一一对应。
+<p><img src="https://github.com/Kelvin-Yuu/Kelvin-Yuu.github.io/blob/master/image/blog/2023-01-11-LeetCode75_Level1_Day2/2.jpeg" alt="> 图2" class="img-responsive"></p>
 ![](/images/blog/2023-01-11-LeetCode75_Level1_Day2/2.jpeg)
 本题很明显，需要字符串s和t是双射关系。
 
@@ -55,6 +56,7 @@ s2t为s映射t，t2s为t映射s。
 	③	s[2] = "o"检索s2t，存在键"o"
 		∵ s2t["o"] = "a"，而t[2] = "r"，s2t["o"] != t[2]；
 		∴ 映射不同(o → a ≠ o → r) 存在一对多关系，不是双射，返回false。
+<p><img src="https://github.com/Kelvin-Yuu/Kelvin-Yuu.github.io/blob/master/image/blog/2023-01-11-LeetCode75_Level1_Day2/1.jpg" alt="> 图2" class="img-responsive"></p>
 ![](/images/blog/2023-01-11-LeetCode75_Level1_Day2/1.jpg)
 	
 ```cpp
